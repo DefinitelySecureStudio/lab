@@ -32,3 +32,12 @@ Pull requests must identify the experiment, content classification, validation
 performed, limitations, and whether the result should be continued, abandoned,
 or considered for promotion. A promotion recommendation must link to destination
 issues or RFCs; merging a Lab pull request does not itself promote the work.
+
+## Contributions and licensing
+
+By intentionally submitting a contribution for inclusion, you license it under
+the [Apache License 2.0](LICENSE), consistent with section 5 of that license.
+You represent that you have the right to submit it. Identify third-party code,
+prompts, model outputs, datasets, dependencies, or assets in the pull request
+and preserve every required license and notice; do not submit material with
+unknown or incompatible terms.
