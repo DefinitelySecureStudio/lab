@@ -1,0 +1,53 @@
+name: Experiment proposal
+description: Propose a bounded creative-production experiment.
+title: "[Experiment]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: State a falsifiable claim or decision this experiment will inform.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Success and stop criteria
+      description: Define measurements, success, failure, and when to stop.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Primary area
+      options:
+        - Agents
+        - Prompts
+        - Validators
+        - Pipelines
+        - Cross-cutting
+    validations:
+      required: true
+  - type: dropdown
+    id: destination
+    attributes:
+      label: Likely destination
+      options:
+        - No promotion expected
+        - Codex contract
+        - Platform implementation
+        - Codex and Platform
+        - Unknown
+    validations:
+      required: true
+  - type: checkboxes
+    id: content
+    attributes:
+      label: Public-content confirmation
+      options:
+        - label: The experiment will use only synthetic or already-public inputs and outputs.
+          required: true
+        - label: No private context, proprietary lore, unpublished canon, credentials, or personal data will be committed.
+          required: true

@@ -1,0 +1,8 @@
+# Default experimental-work ownership; extend with specialist teams as needed.
+* @andrewperis
+
+# Repository governance and promotion-control surfaces.
+/.github/ @andrewperis
+/docs/ @andrewperis
+/experiments/ @andrewperis
+/SECURITY.md @andrewperis
