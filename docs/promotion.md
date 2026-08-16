@@ -27,6 +27,8 @@ specification, or asset convention.
 4. Add semantic versioning, compatibility analysis, schemas, and valid/invalid
    conformance fixtures.
 5. Link the accepted RFC and released contract from the experiment record.
+6. Record the exact Lab commit as historical promotion lineage. Consumers depend
+   on the released Codex bundle, never on that Lab commit or branch.
 
 ## Promotion to Platform
 
@@ -39,6 +41,8 @@ capability.
 3. Replace experimental configuration and fixtures with approved runtime input
    mechanisms; never copy private production data through Lab.
 4. Link the released implementation from the experiment record.
+5. Record the exact Lab commit as historical lineage. The production artifact
+   is owned, versioned, packaged, and released by Platform.
 
 ## Promotion to both
 
@@ -53,3 +57,5 @@ version. Lab must not become an implicit dependency between them.
 - Merging an experiment does not guarantee it will be promoted.
 - A successful result does not waive content, security, licensing, or production
   readiness review.
+- A Lab tag, commit, archive, package, submodule, or copied path is never a
+  stable production dependency. Promotion creates new destination-owned work.
